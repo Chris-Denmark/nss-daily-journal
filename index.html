@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chris Denmark's Daily Journal</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <header>Chris Denmark's Daily Journal</header>
+    <main>
+      <section>
+        <h2>Daily Journal</h2>
+        <form action="">
+          <fieldset>
+            <label class="column" for="journalDate">Date of entry</label>
+            <input type="date" name="journalDate" id="journalDate">
+          </fieldset>
+        </form>
+      </section>
+      <section>
+        <form action="">
+          <fieldset>
+            <label class="column" for="conceptsCovered">Concepts Covered</label>
+            <input type="text" name="conceptsCovered" id="conceptsCovered">
+          </fieldset>
+        </form>
+      </section>
+      <section>
+        <form action="">
+          <fieldset>
+            <label class="column" for="journalEntry">Journal Entry</label>
+            <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"></textarea>
+          </fieldset>
+        </form>
+      </section>
+      <section>
+        <form action="">
+          <fieldset>
+            <label class="column" for="mood">Mood of the day</label>
+            <select name="mood" id="mood">
+              <option value="happy">happy</option>
+              <option value="fine">fine</option>
+              <option value="sad">sad</option>
+            </select>
+          </fieldset>
+        </form>
+      </section>
+      <section>
+        <button>Record Journal Entry</button>
+      </section>
+    </main>
+    <footer>
+      Chris Denmark <a href="https://github.com/Chris-Denmark">Chris-Denmark@Github</a>
+    </footer>
+</body>
+</html>
